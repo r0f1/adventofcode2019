@@ -15,7 +15,7 @@ def cond2(n):
 
 def cond3(n):
     c = set(Counter(str(n)).values())
-    return len(c & {2}) > 0
+    return 2 in c
 
 nrs = [i for i in range(372304, 847060) if cond1(i) and cond2(i)]
 print(len(nrs))
