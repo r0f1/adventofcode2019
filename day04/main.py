@@ -22,7 +22,3 @@ print(len(nrs))
 
 nrs2 = [i for i in nrs if cond3(i)]
 print(len(nrs2))
-print(nrs2)
-
-# # 234 too low
-# # 338 too high
